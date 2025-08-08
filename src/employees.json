@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "employeeId": 189901,
+      "name": "Auston",
+      "surname": "Mtabane",
+      "dateOfBirth": "2001,11,8",
+      "occupation": "Frontend Engineer",
+      "experience": "5 yrs"
+    },
+    {
+      "employeeId": 189902,
+      "name": "Nhlakanipho",
+      "surname": "Masilela",
+      "dateOfBirth": "1997-12-02",
+      "occupation": "Backend Engineer",
+      "experience": "8 yrs"
+    },
+    {
+      "employeeId": 189903,
+      "name": "Jason",
+      "surname": "Arnold",
+      "dateOfBirth": "2002,06,15",
+      "occupation": "FullStack Engineer",
+      "experience": "7 yrs"
+    },
+    {
+      "employeeId": 189904,
+      "name": "Hashim",
+      "surname": "Aziz",
+      "dateOfBirth": "1999,04,7",
+      "occupation": "FullStack Engineer",
+      "experience": "10 yrs"
+    }
+  ]
+}
