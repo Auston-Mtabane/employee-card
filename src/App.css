@@ -1,0 +1,54 @@
+#right{
+    display: flex;
+    flex-direction: column;
+    text-align: right;  
+    justify-items: right;
+    justify-content: right;
+
+}
+.personCard {
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+    width: 80vw;
+    max-width: 40rem;
+    border-radius: 8px;
+    background-color: rgb(242, 242, 242);
+    padding: 2rem;
+    font-size: smaller;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.2s border,0.3s transform;
+    color: rgb(70, 70, 70);
+    /* box-shadow: black 80% 5px; */
+    box-shadow: 0 5px 5px 0 rgba(128, 128, 128, 0.452);
+    
+}
+#profile-picture img {
+  width: 100px;        /* or any size you want */
+  height: 100px;       /* make sure width and height are equal for a perfect circle */
+  border-radius: 50%;  /* makes the image round */
+  object-fit: cover;   /* ensures image covers the box without distortion */
+  display: block;      /* removes small inline gaps */
+  
+
+}
+
+#exp-wrapper {
+    display: inline-block;
+    justify-content: right;
+    justify-items: right;
+    border: 1px solid rgb(194, 194, 194);
+    align-items: center;
+    padding-inline: 10px;
+    border-radius: 20px;
+
+}
+.personCard:active{
+    border: 1px solid rgb(146, 146, 146);
+    transform: scale(1.01);
+}
+.personCard:hover {
+    transform: scale(1.01);
+
+}
